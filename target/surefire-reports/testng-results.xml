@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45583" started-at="2017-02-10T13:21:56Z" finished-at="2017-02-10T13:22:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45583" started-at="2017-02-10T13:21:56Z" finished-at="2017-02-10T13:22:42Z">
+      <class name="Himanshu.EbayProj.SearchProduct">
+        <test-method status="PASS" signature="searchProductOnEbay()[pri:0, instance:Himanshu.EbayProj.SearchProduct@4f70a570]" name="searchProductOnEbay" duration-ms="3893" started-at="2017-02-10T18:52:12Z" finished-at="2017-02-10T18:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductOnEbay -->
+        <test-method status="PASS" signature="validateAllProductsOnSearchPage()[pri:1, instance:Himanshu.EbayProj.SearchProduct@4f70a570]" name="validateAllProductsOnSearchPage" duration-ms="1753" started-at="2017-02-10T18:52:16Z" finished-at="2017-02-10T18:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllProductsOnSearchPage -->
+        <test-method status="PASS" signature="selectItemCategoryByScreenSize()[pri:2, instance:Himanshu.EbayProj.SearchProduct@4f70a570]" name="selectItemCategoryByScreenSize" duration-ms="3038" started-at="2017-02-10T18:52:18Z" finished-at="2017-02-10T18:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItemCategoryByScreenSize -->
+        <test-method status="PASS" signature="randomItemSelector()[pri:3, instance:Himanshu.EbayProj.SearchProduct@4f70a570]" name="randomItemSelector" duration-ms="7533" started-at="2017-02-10T18:52:21Z" finished-at="2017-02-10T18:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomItemSelector -->
+        <test-method status="PASS" signature="validateProductDetails()[pri:4, instance:Himanshu.EbayProj.SearchProduct@4f70a570]" name="validateProductDetails" duration-ms="3590" started-at="2017-02-10T18:52:28Z" finished-at="2017-02-10T18:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductDetails -->
+        <test-method status="PASS" signature="validateShoppingCart()[pri:5, instance:Himanshu.EbayProj.SearchProduct@4f70a570]" name="validateShoppingCart" duration-ms="9676" started-at="2017-02-10T18:52:32Z" finished-at="2017-02-10T18:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateShoppingCart -->
+        <test-method status="PASS" signature="validateGuestCheckOutScreen()[pri:6, instance:Himanshu.EbayProj.SearchProduct@4f70a570]" name="validateGuestCheckOutScreen" duration-ms="58" started-at="2017-02-10T18:52:42Z" finished-at="2017-02-10T18:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGuestCheckOutScreen -->
+      </class> <!-- Himanshu.EbayProj.SearchProduct -->
+      <class name="Himanshu.EbayProj.BasicSetup">
+        <test-method status="PASS" signature="gettingURLFromConfigFile()[pri:0, instance:Himanshu.EbayProj.BasicSetup@4d7d16fe]" name="gettingURLFromConfigFile" is-config="true" duration-ms="10" started-at="2017-02-10T18:51:56Z" finished-at="2017-02-10T18:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingURLFromConfigFile -->
+        <test-method status="PASS" signature="InvokeAppInBrowser()[pri:0, instance:Himanshu.EbayProj.BasicSetup@4d7d16fe]" name="InvokeAppInBrowser" duration-ms="16021" started-at="2017-02-10T18:51:56Z" finished-at="2017-02-10T18:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeAppInBrowser -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Himanshu.EbayProj.BasicSetup@4d7d16fe]" name="closeApplication" is-config="true" duration-ms="1540" started-at="2017-02-10T18:52:42Z" finished-at="2017-02-10T18:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Himanshu.EbayProj.BasicSetup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
